@@ -52,6 +52,7 @@ export const NODEMAILER_PW = process.env.NODEMAILER_PW;
  * I18N
  */
 export const LOCALES = [
+    { code: "id", name: "Indonesia" },
     { code: "en", name: "English" },
     { code: "de", name: "German" },
     { code: "es", name: "Español"}
@@ -111,7 +112,6 @@ export const FORM_DEFAULT_VALUES = {
         address: "",
         zipCode: "",
         city: "",
-        country: "",
         email: "",
         phone: "",
         customInputs: [],
@@ -121,7 +121,6 @@ export const FORM_DEFAULT_VALUES = {
         address: "",
         zipCode: "",
         city: "",
-        country: "",
         email: "",
         phone: "",
         customInputs: [],
@@ -140,8 +139,8 @@ export const FORM_DEFAULT_VALUES = {
                 total: 0,
             },
         ],
-        currency: "USD",
-        language: "English",
+        currency: "IDR",
+        language: "Indonesia",
         taxDetails: {
             amount: 0,
             amountType: "amount",
