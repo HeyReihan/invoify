@@ -1,0 +1,92 @@
+{
+    "form": {
+        "title": "Nota",
+        "description": "Bikin Nota",
+        "newInvBadge": "Nota Baru",
+        "wizard": {
+            "fromAndTo": "Dari & Ke",
+            "invoiceDetails": "Detail Nota",
+            "lineItems": "Line Items",
+            "paymentInfo": "Info Pembayaran",
+            "summary": "Ringkasan",
+            "next": "Next",
+            "back": "Kembali"
+        },
+        "steps": {
+            "fromAndTo": {
+                "billFrom": "Tagihan Dari",
+                "billTo": "Pembayaran kepada",
+                "name": "Nama",
+                "address": "Alamat",
+                "zipCode": "Zip",
+                "city": "Kota",
+                "country": "Negara",
+                "email": "Email",
+                "phone": "Nomor Telepon",
+                "addCustomInput": "Tambahkan Masukan Khusus",
+                "sender": "Pengirim",
+                "receiver": "Pengirim"
+            },
+            "invoiceDetails": {
+                "heading": "Detail Nota",
+                "invoiceLogo": {
+                    "label": "Logo Nota",
+                    "placeholder": "Klik untuk mengunggah gambar"
+                },
+                "invoiceNumber": "Nomor Nota",
+                "issuedDate": "Tanggal pembuatan",
+                "dueDate": "Tenggat waktu",
+                "currency": "Mata uang"
+            },
+            "lineItems": {
+                "heading": "Barang",
+                "item": "Item",
+                "name": "Nama",
+                "quantity": "Kuantitas",
+                "rate": "Kecepatan",
+                "total": "Total",
+                "description": "Deskripsi",
+                "addNewItem": "Tambahkan item baru",
+                "removeItem": "Hapus barang"
+            },
+            "paymentInfo": {
+                "heading": "Informasi Pembayaran",
+                "bankName": "Nama Bank",
+                "accountName": "Nama Akun",
+                "accountNumber": "Nomor Akun"
+            },
+            "summary": {
+                "heading": "Ringkasan",
+                "signature": {
+                    "heading": "Tanda tangan",
+                    "placeholder": "Klik untuk menambahkan tanda tangan",
+                    "draw": "Menggambar",
+                    "type": "Jenis",
+                    "upload": "Upload"
+                },
+                "additionalNotes": "Catatan tambahan",
+                "paymentTerms": "Syarat pembayaran",
+                "discount": "Diskon",
+                "tax": "PPN",
+                "shipping": "Pengiriman",
+                "subTotal": "Subtotal",
+                "totalAmount": "Total Jumlah",
+                "includeTotalInWords": "Sertakan Total dalam Kata-kata?",
+                "yes": "Yes",
+                "no": "No"
+            }
+        }
+    },
+    "actions": {
+        "title": "Tindakan",
+        "description": "Operasi dan pratinjau",
+        "loadInvoice": "Muat Nota",
+        "exportInvoice": "Bagikan Nota",
+        "newInvoice": "Nota baru",
+        "generatePdf": "Jadikan PDF",
+        "pdfView": "Lihat PDF"
+    },
+    "footer": {
+        "developedBy": "Developed by"
+    }
+}
