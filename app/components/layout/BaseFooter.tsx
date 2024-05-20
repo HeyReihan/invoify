@@ -10,11 +10,11 @@ const BaseFooter = () => {
             <p>
                 {_t("footer.developedBy")}{" "}
                 <a
-                    href="https://github.com/aliabb01"
+                    href="https://github.com/HeyReihan"
                     target="_blank"
                     style={{ textDecoration: "underline" }}
                 >
-                    Ali Abbasov
+                    Reihan Musyaffa
                 </a>
             </p>
         </footer>
